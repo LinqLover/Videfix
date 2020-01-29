@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("VidefixTray")]
-[assembly: AssemblyDescription("Videfix automatically saves your window's arrangement and restores them after a restart of your PC.")]
+[assembly: AssemblyDescription("Videfix automatically saves your windows' arrangement and restores them after a restart of your PC.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Christoph Thiede")]
 [assembly: AssemblyProduct("Videfix")]

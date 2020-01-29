@@ -21,7 +21,7 @@ Supported languages:
 **For developers:** Provided that did not make any configuration errors, you should be able to clone this project, open the solution with Visual Studio (tested on VS 2017) and create the build. If you run into any problems, please let me know.
 
 ## Development notes
-The underlying API for dealing with virtual desktops on Windows has been copied from [@MScholtes](https://github.com/MScholtes)' [VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) implementation. Thank him for creating & updating this demo!
+The underlying API for dealing with virtual desktops on Windows has been copied from [@MScholtes](https://github.com/MScholtes)' [VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) implementation. Thank him or her for creating & updating this demo!
 This tool was originally developed in 2018 but has been successfully used by me until today. However, some aspects of the implementation are kind of hacky and could need a refactoring. Any contribution is highly welcome and will be honored & supported!
 
 If you have any questions or problems, please create an issue.

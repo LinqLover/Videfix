@@ -17,3 +17,11 @@ The underlying API for dealing with virtual desktops on Windows has been copied 
 This tool was originally developed in 2018 but has been successfully used by me until today. However, some aspects of the implementation are kind of hacky and could need a refactoring. Any contribution is highly welcome and will be honored & supported!
 
 If you have any questions or problems, please create an issue.
+
+### Todos/Ideas
+
+- Real testing
+- Upgrade code to .NET Core
+- Automate build process
+- Heuristics to enhance differentiation between similar windows (for example, could we get the tabs of a chrome window?)
+- Respect window position, extent, state (min/max) for identification

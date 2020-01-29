@@ -88,8 +88,6 @@
     <None Include="app.manifest">
       <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config" />
-    <None Include="TODOS.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MScholtes.VirtualDesktop\MScholtes.VirtualDesktop.csproj">

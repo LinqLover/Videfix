@@ -90,6 +90,8 @@ namespace Videfix.Tray.Properties {
 		/// </summary>
 		internal static string AboutDialog_Copyright => GetString(nameof(AboutDialog_Copyright));
 
+		internal static string AboutDialog_CreditsNotices => GetString(nameof(AboutDialog_CreditsNotices));
+
 		private static string GetString(string key)
 		{
 			return ResourceManager.GetString(key, resourceCulture)

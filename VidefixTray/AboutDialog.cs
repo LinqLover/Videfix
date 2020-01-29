@@ -18,7 +18,12 @@ namespace Videfix.Tray
 			InstructionText = Strings.Dialog_AppTitle;
 			Text = Strings.AboutDialog_Description
 				+ Environment.NewLine + Environment.NewLine
+				+ string.Format(Strings.AboutDialog_CreditsNotices,
+					"<a href=\"https://github.com/LinqLover/Videfix\">https://github.com/LinqLover/Videfix</a>",
+					"<a href=\"https://github.com/MScholtes/VirtualDesktop\">@MScholtes</a>")
+				+ Environment.NewLine + Environment.NewLine
 				+ Strings.AboutDialog_Copyright;
+			HyperlinkClick += HyperlinkClicked;
 
 			LatestBackup = default;
 
@@ -30,6 +35,11 @@ namespace Videfix.Tray
 			catch (System.Security.SecurityException)
 			{
 			}
+		}
+
+		private void HyperlinkClicked(object sender, TaskDialogHyperlinkClickedEventArgs args)
+		{
+			Process.Start(args.LinkText);
 		}
 
 		public DateTime? LatestBackup

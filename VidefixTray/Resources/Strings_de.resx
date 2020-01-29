@@ -240,4 +240,8 @@ Ihre Fenster werden nicht geändert.</value>
   <data name="SaveErrorDialog_Instruction" xml:space="preserve">
     <value>Die Anordnung der Fenster konnte nicht gespeichert werden.</value>
   </data>
+  <data name="AboutDialog_CreditsNotices" xml:space="preserve">
+    <value>Quellcoderepository: {0}
+Quelle der VirtualDesktop-Bibliothek: {1}</value>
+  </data>
 </root>

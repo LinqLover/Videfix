@@ -243,4 +243,8 @@ Your windows will not be changed</value>
   <data name="SaveErrorDialog_Instruction" xml:space="preserve">
     <value>Could not save the window arrangement</value>
   </data>
+  <data name="AboutDialog_CreditsNotices" xml:space="preserve">
+    <value>Source code repository: {0}
+Credits for VirtualDesktop library: {1}</value>
+  </data>
 </root>

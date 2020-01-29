@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videfix", "Videfix\Videfix.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MScholtes.VirtualDesktop", "MScholtes.VirtualDesktop\MScholtes.VirtualDesktop.csproj", "{5FDCD768-F587-403C-9D19-0FF230809C52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VidefixTray", "VidefixTray\VidefixTray.csproj", "{14F91D05-763E-4E45-AAE5-2822630A202C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

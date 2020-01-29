@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContextMenu_Exit_String" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ContextMenu_About_String" xml:space="preserve">
+    <value>About Videfix</value>
+  </data>
+  <data name="ContextMenu_Save_String" xml:space="preserve">
+    <value>Save arrangement</value>
+  </data>
+  <data name="ContextMenu_Restore_String" xml:space="preserve">
+    <value>Restore arrangement</value>
+  </data>
+  <data name="SystemTray_AppTitle" xml:space="preserve">
+    <value>Videfix</value>
+  </data>
+  <data name="AboutDialog_Copyright" xml:space="preserve">
+    <value>Copyright © Christoph Thiede 2020. MIT License.</value>
+  </data>
+  <data name="AboutDialog_Description" xml:space="preserve">
+    <value>Videfix automatically saves your window's arrangement and restores them after a restart of your PC.</value>
+  </data>
+  <data name="AboutDialog_LatestBackupCreated" xml:space="preserve">
+    <value>Latest backup created: {0}</value>
+  </data>
+  <data name="AboutDialog_NoBackupCreated" xml:space="preserve">
+    <value>(Not any backup created yet)</value>
+  </data>
+  <data name="Dialog_AppTitle" xml:space="preserve">
+    <value>Videfix</value>
+  </data>
+  <data name="BusyErrorDialog_Instruction" xml:space="preserve">
+    <value>Command cannot be executed because another dialog window is opened</value>
+  </data>
+  <data name="BusyErrorDialog_Details" xml:space="preserve">
+    <value>Close the other dialog window and try again.</value>
+  </data>
+  <data name="BrowseArrangementsDialog_ArrangementFilter" xml:space="preserve">
+    <value>Window arrangements</value>
+  </data>
+  <data name="BrowseArrangementsDialog_Title" xml:space="preserve">
+    <value>Browse arrangements ...</value>
+  </data>
+  <data name="ErrorDialog_HideDetails" xml:space="preserve">
+    <value>Hide error details</value>
+  </data>
+  <data name="ErrorDialog_ShowDetails" xml:space="preserve">
+    <value>Show error details</value>
+  </data>
+  <data name="GeneralErrorDialog_Details" xml:space="preserve">
+    <value>Please try restarting the application. If you can reproduce the problem, you might contact the developer.</value>
+  </data>
+  <data name="GeneralErrorDialog_Instruction" xml:space="preserve">
+    <value>Videfix has encountered a problem and needs to close</value>
+  </data>
+  <data name="NotElevatedWarningDialog_Details" xml:space="preserve">
+    <value>Videfix has been started without administrative privileges.
+
+If you do not elevate it, windows running elevated cannot be captured or arranged.</value>
+  </data>
+  <data name="NotElevatedWarningDialog_Ignore_Details" xml:space="preserve">
+    <value>Windows running elevated will not be captured.</value>
+  </data>
+  <data name="NotElevatedWarningDialog_Ignore_Title" xml:space="preserve">
+    <value>Continue unelevated</value>
+  </data>
+  <data name="NotElevatedWarningDialog_Instruction" xml:space="preserve">
+    <value>Run Videfix as administrator</value>
+  </data>
+  <data name="NotElevatedWarningDialog_RestartElevated" xml:space="preserve">
+    <value>Restart as administrator</value>
+  </data>
+  <data name="NotElevatedWarningDialog_Terminate" xml:space="preserve">
+    <value>Terminate Videfix</value>
+  </data>
+  <data name="RestoreArrangementDialog_Browse" xml:space="preserve">
+    <value>Browse arrangements ...</value>
+  </data>
+  <data name="RestoreArrangementDialog_Instruction" xml:space="preserve">
+    <value>Which arrangement would you like to restore?</value>
+  </data>
+  <data name="RestoreArrangementDialog_RestoreLastSaved" xml:space="preserve">
+    <value>Restore last saved arrangement</value>
+  </data>
+  <data name="RestoredDialog_Message" xml:space="preserve">
+    <value>The window arrangement has been restored.</value>
+  </data>
+  <data name="SavedDialog_Message" xml:space="preserve">
+    <value>The window arrangement has been saved.</value>
+  </data>
+  <data name="RestoreArrangementDialog_RestoreLastSaved_Details" xml:space="preserve">
+    <value>Arrangement saved at {0}</value>
+  </data>
+  <data name="RestoreErrorDialog_Details" xml:space="preserve">
+    <value>There might be a problem with the file you selected. Try to select another file, or if you can reproduce the problem, consider to contact the developer.</value>
+  </data>
+  <data name="RestoreErrorDialog_Instruction" xml:space="preserve">
+    <value>The selected arrangement could not be restored.</value>
+  </data>
+  <data name="AboutDialog_StartWithWindows" xml:space="preserve">
+    <value>Start Videfix with Windows</value>
+  </data>
+  <data name="ConfigureStartWithWindowsErrorDialog_Instruction" xml:space="preserve">
+    <value>Could not configure start with Windows behavior</value>
+  </data>
+  <data name="OfferRestoreDialog_Accept" xml:space="preserve">
+    <value>Restore last saved arrangement</value>
+  </data>
+  <data name="OfferRestoreDialog_Accept_Details" xml:space="preserve">
+    <value>Arrangement saved at {0}</value>
+  </data>
+  <data name="OfferRestoreDialog_Decline" xml:space="preserve">
+    <value>Keep current arrangement
+Your windows will not be changed</value>
+  </data>
+  <data name="OfferRestoreDialog_Instruction" xml:space="preserve">
+    <value>Would you like to restore the latest saved arrangement?</value>
+  </data>
+  <data name="Registry_ApplicationName" xml:space="preserve">
+    <value>Videfix</value>
+  </data>
+  <data name="BackupErrorDialog_Instruction" xml:space="preserve">
+    <value>An error occurred while backing up the window arrangement</value>
+  </data>
+  <data name="SaveErrorDialog_Instruction" xml:space="preserve">
+    <value>Could not save the window arrangement</value>
+  </data>
+</root>

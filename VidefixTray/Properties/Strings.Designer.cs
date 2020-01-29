@@ -86,7 +86,7 @@ namespace Videfix.Tray.Properties {
         }
 
 		/// <summary>
-		///   Sucht eine lokalisierte Zeichenfolge, die Copyright © Christoph Thiede 2018. ähnelt.
+		///   Sucht eine lokalisierte Zeichenfolge, die Copyright © Christoph Thiede 2020. ähnelt.
 		/// </summary>
 		internal static string AboutDialog_Copyright => GetString(nameof(AboutDialog_Copyright));
 

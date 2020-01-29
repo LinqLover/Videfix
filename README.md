@@ -7,6 +7,7 @@ Features:
 - Save window arrangements
 - Backup window arrangements automatically
 - Restore window arrangement later
+
 Supported languages:
 - English
 - German

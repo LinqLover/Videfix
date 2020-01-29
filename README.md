@@ -1,7 +1,9 @@
 # Videfix
 _**Videfix**_ (**Vi**rtual **De**sktop **Fi**x) is a small library & GUI utility that improves the convenience when working with many open windows or virtual desktops on Windows 10.
 
-Since Windows 10, Microsoft finally offers the Task View feature, which allows you to arrange your windows on multiple virtual desktops. Unfortunately, after rebooting your system most of your windows that are reopened automatically, such as Word, Paint, Chrome or Edge, won't remember their virtual desktop position but remain on the first virtual desktop. This tool provides a fix for that situation by frequently taking automatical backups of all windows' positions and displaying a button in the system tray to restore such a backed up arrangement. You can also create manual backups.
+<p align="center"><img src="https://github.com/LinqLover/Videfix/blob/master/screenshots/taskbar.png?raw=true" alt="Screenshot" /></p>
+
+Since Windows 10, Microsoft finally offers the [Task View](https://en.wikipedia.org/wiki/Task_View) feature, which allows you to arrange your windows on multiple virtual desktops. Unfortunately, after rebooting your system, most of your windows that are reopened automatically, such as Word, Paint, Chrome or Edge, won't remember their virtual desktop position but remain on the first virtual desktop. This small tool provides a solution for that situation by frequently taking automatical backups of all windows' positions and displaying a button in the system tray to restore such a backed up arrangement. You can also create manual backups.
 
 Features:
 - Save window arrangements

@@ -15,7 +15,7 @@ namespace Videfix
 {
 	/// <summary>Contains functionality to get all the open windows.</summary>
 	/// <remarks>
-	/// CREDITS: https://stackoverflow.com/a/43640787
+	/// CREDITS: https://www.tcx.be/blog/2006/list-open-windows/
 	/// </remarks>
 	public
 	static class OpenWindowGetter

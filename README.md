@@ -20,10 +20,12 @@ This tool was originally developed in 2018 but has been successfully used by me 
 
 If you have any questions or problems, please create an issue.
 
-### Todos/Ideas
-
+### Todos
+#### Internal (code quality)
 - Real testing
 - Upgrade code to .NET Core
+- Replace `lib/HelperLib.dll`, which is a proprietary precompiled and partially deprecated library.
 - Automate build process
+#### Feature Ideas
 - Heuristics to enhance differentiation between similar windows (for example, could we get the tabs of a chrome window?)
 - Respect window position, extent, state (min/max) for identification
